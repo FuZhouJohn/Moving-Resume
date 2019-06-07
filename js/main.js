@@ -67,6 +67,11 @@ body{
     height:100vh;
     padding:16px;
 }
+@media (max-width: 1000px) {
+    body{
+        flex-direction: column;
+    }
+}
 #code{
     flex:1;
     border:1px solid #ecf0f1;
@@ -97,10 +102,9 @@ let content2 = `
 .paper{
     flex:1;
     background:white;
-    margin-left:16px;
 }
 
-/* 这样我就可以在白纸上写字了，请看右边 */
+/* 这样我就可以在白纸上写字了 */
 `;
 let content3 = `
 /* 
