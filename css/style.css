@@ -1,0 +1,15 @@
+.token.selector {
+    color: #ecf0f1;
+}
+.token.punctuation {
+    color: #ecf0f1;
+}
+.token.property {
+    color: #ecf0f1;
+}
+#code {
+    color: #ecf0f1;
+}
+.paper {
+    overflow: auto;
+}
